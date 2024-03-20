@@ -36,18 +36,18 @@ What things you need to install the software and how to install them:
 A step by step series of examples that tell you how to get a development environment running.
 
 
-   git clone https://yourrepository.git
-   cd your-project
-   npm i
-   npm start
+  - git clone https://yourrepository.git
+  - cd your-project
+  - npm i
+  - npm start
 
 ### Usage
 
 After starting the server, you can access the following endpoints:
 
-   POST /api/auth/register for user registration.
-   POST /api/auth/login for user login.
-   GET /api/auth/google for authentication via Google.
-   GET /api/users/profile for viewing the authenticated user's profile.
-   POST /api/users/profile for editing the authenticated user's profile.
-   GET /api/users/public-profiles for listing all public profiles.
+ -  POST /api/auth/register for user registration.
+ -  POST /api/auth/login for user login.
+ -  GET /api/auth/google for authentication via Google.
+ -  GET /api/users/profile for viewing the authenticated user's profile.
+ -  POST /api/users/profile for editing the authenticated user's profile.
+ -  GET /api/users/public-profiles for listing all public profiles.
