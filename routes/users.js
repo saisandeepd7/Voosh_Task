@@ -4,7 +4,7 @@ const passport = require('passport');
 const { viewProfile, editProfile, listPublicProfiles, viewAnyProfile } = require('../../controllers/userController');
 const { isAdmin } = require('../middleware/isAdmin')
 
-// Using JWT authentication to protect routes
+
 router.get('/profile', passport.authenticate('jwt', { session: false }), viewProfile);
 router.post('/profile', passport.authenticate('jwt', { session: false }), editProfile);
 router.get('/public-profiles', listPublicProfiles);
